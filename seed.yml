@@ -1,0 +1,4 @@
+before_compile:
+  - dotnet --version
+  - /usr/local/bin/dotnet-install.sh -v 6.0.300
+  - dotnet --version
